@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+}
+
+tr {
+    width: 600px;
+}
+
+tr:nth-child(even) {
+    background-color: #c9c8c8;
+}
+
+tr td:first-of-type {
+    text-transform: capitalize;
+}
+
+th,
+td {
+    width: 200px;
+    height: 30px;
+    border: 2px solid #fff;
+}
+
+tr th {
+    background-color: rgb(33, 162, 205);
+    color: #fff;
+}

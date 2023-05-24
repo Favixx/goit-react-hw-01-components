@@ -1,8 +1,20 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .profile {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: #fff;
+    padding: 0;
+
+    width: 300px;
+    height: fit-content;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2),
+        -2px -2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .stats li {
@@ -10,12 +22,29 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 1px solid #cecbcb;
 }
 
 .stats {
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
     padding: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 100px;
+
+}
+
+.stats li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    background: #c2c2c2;
+
 }
 
 .description {
@@ -23,6 +52,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    padding: 20px 30px;
 }
 
 .name {
@@ -34,4 +65,5 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    margin-bottom: 20px;
 }
